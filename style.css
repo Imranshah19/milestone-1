@@ -1,0 +1,95 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #c5d0e2;
+}
+h1{
+    text-align: center;
+    color: #252729;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #b1b9c4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: auto;
+}
+
+fieldset{
+    border: 2px solid #252729;
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(195, 198, 199);
+}
+#Contact{
+    margin-top: 18px;
+    text-decoration: underline;
+}
+
+legend{
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #303336;
+}
+input,textarea{
+    width: cal(100% - 16px);
+    padding:9px;
+    margin-top: 4px;
+    border: 1px solid #3b3e42;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: auto;
+    padding: 10px;
+    background-color: #717e7c;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color:rgb(230, 225, 225) ;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3b3e42;
+    border-radius: 8px;
+    background-color: #dbe0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+#resumeOutput h2{
+    color: #707c7a;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto ;
+    border: 2px solid #dbe0e0;
+    box-shadow: 0 4px 8px #5f6464;
+    border-radius: 500%;
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+}
